@@ -22,7 +22,8 @@ function insertObject(jsonObj, idColumn) {
                             <img src="https://plus.google.com/_/favicon?domain=${item.link}" class="align-middle"/>
                             - ${item.text}
                         </button>
-                    </a>`
+                    </a>
+            `
         }).appendTo("#" + jsonObj.id);
     });
 }
@@ -36,7 +37,8 @@ function insertQuote() {
         $("<p/>", {
             html: `${data.quote}
                     <br/>
-                    - <a href="${data.permalink}"> ${data.author}</a>`
+                    - <a href="${data.permalink}"> ${data.author}</a>
+            `
         }).appendTo("#quote");
     });
 }
