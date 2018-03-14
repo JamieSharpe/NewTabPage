@@ -81,8 +81,8 @@ $(document).ready(function () {
 
     insertObject(News, "col1");
     insertObject(University, "col2");
-    insertObject(Social, "col2");
-    insertObject(Media, "col3");
+    insertObject(Social, "col3");
+    insertObject(Media, "col2");
     insertObject(Utilities, "col3");
     insertQuote();
     insertWeather();
