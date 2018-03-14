@@ -61,13 +61,14 @@ function insertWeather() {
 
         var sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString();
         var sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString();
+        var windSpeedMph = (data.wind.speed * 2.2369).toFixed(1);
         $("<ul/>", {
             "class": "list-group list-group-flush",
             html: `<li class="list-group-item">Description: ${data.weather[0].main}<br/>${data.weather[0].description}</li>
                     <li class="list-group-item">Cloud Cover: ${data.clouds.all}%</li>
                     <li class="list-group-item">Visibility: ${data.visibility}m</li>
                     <li class="list-group-item">Temperature: ${data.main.temp}°C <br/> min: ${data.main.temp_min}°C <br/> max:${data.main.temp_max}°C</li>
-                    <li class="list-group-item">Wind Speed: ${data.wind.speed} m/s <br/> Direction: ${data.wind.deg}°</li>
+                    <li class="list-group-item">Wind Speed: ${windSpeedMph} mph <br/> Direction: ${data.wind.deg}°</li>
                     <li class="list-group-item">Sunrise: ${sunrise} <br/> Sunset: ${sunset}</li>
                     <li class="list-group-item">${data.name} - ${data.sys.country}</li>
             `

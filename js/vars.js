@@ -11,28 +11,22 @@ var News = {
             "text": "Verge"
         },
         "ArsTechnica": {
-
-
             "link": "https://arstechnica.com/",
             "text": "Ars Technica"
         },
         "Guardian": {
-
             "link": "https://www.theguardian.com/uk",
             "text": "Guardian"
         },
         "SlashDot": {
-
             "link": "https://slashdot.org/",
             "text": "Slash Dot"
         },
         "Wired": {
-
             "link": "https://www.wired.co.uk/",
             "text": "Wired"
         },
         "TorrentFreak": {
-
             "link": "https://torrentfreak.com/",
             "text": "Torrent Freak"
         },
@@ -41,52 +35,42 @@ var News = {
             "text": "Hacker News"
         },
         "ACMTechNews": {
-
             "link": "http://technews.acm.org/",
             "text": "ACM Tech News"
         },
         "Lobster": {
-
             "link": "https://lobste.rs/",
             "text": "Lobster"
         },
         "TechCrunch": {
-
             "link": "https://techcrunch.com/",
             "text": "Tech Crunch"
         },
         "Engadget": {
-
             "link": "https://www.engadget.com/uk/",
             "text": "Engadget"
         },
         "MentalFloss": {
-
             "link": "http://mentalfloss.com/",
             "text": "Mental Floss"
         },
         "WallStreetJournal": {
-
             "link": "https://www.wsj.com/europe",
             "text": "Wall Street Journal"
         },
         "TopTechNews": {
-
             "link": "https://www.toptechnews.com/",
             "text": "Top Tech News"
         },
         "AlJazeera": {
-
             "link": "https://www.aljazeera.com/",
             "text": "Al Jazeera"
         },
         "Reuters": {
-
             "link": "https://uk.reuters.com/",
             "text": "Reuters"
         },
         "GoogleNews": {
-
             "link": "https://news.google.com/news/?ned=us&gl=US&hl=en",
             "text": "Google News"
         }
@@ -131,7 +115,17 @@ var Utilities = {
         "Notes / Tasks": {
             "link": "https://keep.google.com/u/0/#home",
             "text": "Notes / Tasks"
-        }
+        },
+        "Blog":
+            {
+                "link": "https://nullabletruth.co.uk/blog/wp-admin/",
+                "text": "Nullable Truth Blog"
+            },
+        "NullableTruthCPanel":
+            {
+                "link": "https://chi.uk2.net/shared-hosting/nullabletruth.co.uk/cpanel",
+                "text": "Website CPanel"
+            }
     }
 
 };
@@ -147,6 +141,10 @@ var University = {
         "LibGuides": {
             "link": "https://libguides.derby.ac.uk/",
             "text": "Lib Guides"
+        },
+        "WritingNavigator": {
+            "link": "https://www.writingnavigator.com/portal/sites/writingnav/index.html#",
+            "text": "Writing Navigator"
         },
         "PiktoChart": {
             "link": "https://create.piktochart.com/dashboard",
