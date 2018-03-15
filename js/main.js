@@ -86,6 +86,32 @@ function insertWeather() {
     });
 }
 
+/*
+function setupKeyBindings() {
+    Mousetrap.bind("up", function () {
+        changeFocus(1);
+    });
+
+    Mousetrap.bind("down", function () {
+        changeFocus(-1);
+    });
+}
+
+function changeFocus(a) {
+
+    console.log("going" + a);
+
+    var currentFocus = $(":focus").index(this);
+    console.log("current Focus: " + currentFocus);
+
+    var tabindexValue = currentFocus + a;
+    console.log("New Focus " + tabindexValue);
+
+    //$('*').attr('tabindex', tabindexValue).focus();
+    $('[tabindex=' + tabindexValue + ']').focus();
+
+}
+*/
 
 $(document).ready(function () {
 
@@ -97,4 +123,5 @@ $(document).ready(function () {
     insertObject(Personal, "col3");
     insertQuote();
     insertWeather();
+    //setupKeyBindings();
 });

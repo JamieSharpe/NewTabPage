@@ -173,6 +173,14 @@ var University = {
         "Thesaurus": {
             "link": "http://www.thesaurus.com/",
             "text": "Thesaurus"
+        },
+        "stackexchage": {
+            "link": "https://stackexchange.com/sites",
+            "text": "Stack Exchange"
+        },
+        "TED": {
+            "link": "https://stackexchange.com/sites",
+            "text": "TED"
         }
     }
 };
@@ -192,6 +200,18 @@ var Media = {
         "whiteNoiseGenerator": {
             "link": "https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php?c=0&l=9999534300000000000000&d=0",
             "text": "White Noise Generator",
+        },
+        "Twitch": {
+            "link": "https://www.twitch.com/",
+            "text": "Twitch"
+        },
+        "DeviantArt": {
+            "link": "https://www.deviantart.com/",
+            "text": "Deviant Art"
+        },
+        "IMDb": {
+            "link": "https://www.imdb.com/",
+            "text": "IMDb"
         }
     }
 };
