@@ -6,7 +6,7 @@ function insertObject(jsonObj, idColumn) {
         "class": 'card mb-4 box-shadow text-uppercase',
         html: `
                 <div class="card-header text-center">
-                    <h4>${jsonObj.title}</h4>
+                    ${jsonObj.title}
                 </div>
                 <div class="card-body text-left">
                         <ul id="${jsonObj.id}" class="card-text" style="list-style-type:none;">
@@ -59,13 +59,16 @@ function insertWeather() {
     $("<div/>", {
         "class": 'card mb-4 box-shadow',
         html: `
-                <div class="card-header text-uppercase text-center">
-                    <h4>Weather</h4>
-                </div>
-                <div id="weatherCard" class="card-body card-text" style="padding:-1em;">
-                </div>
+        <div class="card-header text-uppercase text-center">
+        Time - Weather
+        </div>
+        <div id="weatherCard" class="card-body card-text" style="padding:-1em;">
+        </div>
         `
     }).appendTo("#col0");
+
+    moment.locale("en-gb");
+    var curTime = moment().format('llll');
 
     $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Derby&appid=" + weatherAPIID + "&units=metric", function (data) {
 
@@ -74,7 +77,8 @@ function insertWeather() {
         var windSpeedMph = (data.wind.speed * 2.2369).toFixed(1);
         $("<ul/>", {
             "class": "list-group list-group-flush",
-            html: `<li class="list-group-item">Description: ${data.weather[0].main}<br/>${data.weather[0].description}</li>
+            html: ` <li class="list-group-item" id="curTime">${curTime}</li>
+                    <li class="list-group-item">Description: ${data.weather[0].main}<br/>${data.weather[0].description}</li>
                     <li class="list-group-item">Cloud Cover: ${data.clouds.all}%</li>
                     <li class="list-group-item">Visibility: ${data.visibility}m</li>
                     <li class="list-group-item">Temperature: ${data.main.temp}°C <br/> min: ${data.main.temp_min}°C <br/> max:${data.main.temp_max}°C</li>
@@ -113,15 +117,19 @@ function changeFocus(a) {
 }
 */
 
+
 $(document).ready(function () {
 
     // Load all of the categories/links
     insertObject(News, "col1");
     insertObject(University, "col2");
-    insertObject(Social, "col3");
-    insertObject(Media, "col2");
+    insertObject(Social, "col2");
+    insertObject(Media, "col3");
     insertObject(Personal, "col3");
     insertQuote();
     insertWeather();
     //setupKeyBindings();
+    setInterval(function () {
+        $("#curTime").text(() => { })[0].innerText = moment().format('llll');
+    }, 1000)
 });

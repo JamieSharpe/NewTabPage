@@ -73,6 +73,10 @@ var News = {
         "GoogleNews": {
             "link": "https://news.google.com/news/?ned=us&gl=US&hl=en",
             "text": "Google News"
+        },
+        "T&A": {
+            "link": "http://www.thetelegraphandargus.co.uk/",
+            "text": "Telegraph & Argus"
         }
     }
 };
@@ -116,16 +120,18 @@ var Personal = {
             "link": "https://keep.google.com/u/0/#home",
             "text": "Notes / Tasks"
         },
-        "Blog":
-            {
-                "link": "https://nullabletruth.co.uk/blog/wp-admin/",
-                "text": "Nullable Truth Blog"
-            },
-        "NullableTruthCPanel":
-            {
-                "link": "https://chi.uk2.net/shared-hosting/nullabletruth.co.uk/cpanel",
-                "text": "Website CPanel"
-            }
+        "Blog": {
+            "link": "https://nullabletruth.co.uk/blog/wp-admin/",
+            "text": "Nullable Truth Blog"
+        },
+        "NullableTruthCPanel": {
+            "link": "https://chi.uk2.net/shared-hosting/nullabletruth.co.uk/cpanel",
+            "text": "Website CPanel"
+        },
+        "Github": {
+            "link": "https://github.com/JamieSharpe",
+            "text": "GitHub"
+        }
     }
 
 };
@@ -179,7 +185,7 @@ var University = {
             "text": "Stack Exchange"
         },
         "TED": {
-            "link": "https://stackexchange.com/sites",
+            "link": "https://www.ted.com/",
             "text": "TED"
         }
     }
