@@ -100,9 +100,9 @@ var Social = {
     }
 };
 
-var Utilities = {
-    "id": "Utilities",
-    "title": "Utilities",
+var Personal = {
+    "id": "Personal",
+    "title": "Personal",
     "links": {
         "Email": {
             "link": "https://mail.google.com/mail/u/0/#inbox",

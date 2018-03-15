@@ -1,6 +1,7 @@
 
 function insertObject(jsonObj, idColumn) {
 
+    // Create the base category container
     $("<div/>", {
         "class": 'card mb-4 box-shadow text-uppercase',
         html: `
@@ -14,11 +15,12 @@ function insertObject(jsonObj, idColumn) {
         `
     }).appendTo("#" + idColumn);
 
+    // Insert all of the links into the category
     $.each(jsonObj.links, function (index, item) {
 
         $("<li/>", {
             html: `<a href="${item.link}">
-                        <button type="button" class= "btn btn-link" style="padding:0;">
+                        <button type="button" class= "btn btn-link" style="padding:0;" tabindex="-1">
                             <img src="https://plus.google.com/_/favicon?domain=${item.link}" class="align-middle"/>
                             - ${item.text}
                         </button>
@@ -26,18 +28,25 @@ function insertObject(jsonObj, idColumn) {
             `
         }).appendTo("#" + jsonObj.id);
     });
+
+    // Add shortcut key to focus on link in that category
+    var shortcutChar = jsonObj.title[0].toLowerCase();
+    Mousetrap.bind(shortcutChar, function () {
+        $("#" + jsonObj.id).children("li").children("a")[0].focus();
+    });
 }
 
 
 function insertQuote() {
 
+    // Inserts a random quote at the top of the page
     // Quote link -- "https://talaikis.com/api/quotes/random/"
     var quoteLink = "http://quotes.stormconsultancy.co.uk/random.json";
     $.getJSON(quoteLink, function (data) {
         $("<p/>", {
             html: `${data.quote}
                     <br/>
-                    - <a href="${data.permalink}"> ${data.author}</a>
+                    - <a href="${data.permalink}" tabindex="-1"> ${data.author}</a>
             `
         }).appendTo("#quote");
     });
@@ -46,6 +55,7 @@ function insertQuote() {
 
 function insertWeather() {
 
+    // Inserts the current weather on the left column
     $("<div/>", {
         "class": 'card mb-4 box-shadow',
         html: `
@@ -79,11 +89,12 @@ function insertWeather() {
 
 $(document).ready(function () {
 
+    // Load all of the categories/links
     insertObject(News, "col1");
     insertObject(University, "col2");
     insertObject(Social, "col3");
     insertObject(Media, "col2");
-    insertObject(Utilities, "col3");
+    insertObject(Personal, "col3");
     insertQuote();
     insertWeather();
 });
