@@ -131,6 +131,14 @@ var Personal = {
         "Github": {
             "link": "https://github.com/JamieSharpe",
             "text": "GitHub"
+        },
+        "NAS": {
+            "link": "https://169.254.214.165:5001/",
+            "text": "NAS"
+        },
+        "SSH": {
+            "link": "chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html",
+            "text": "SSH"
         }
     }
 
