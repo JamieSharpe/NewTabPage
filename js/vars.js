@@ -77,6 +77,10 @@ var News = {
         "T&A": {
             "link": "http://www.thetelegraphandargus.co.uk/",
             "text": "Telegraph & Argus"
+        },
+        "TechRepublic": {
+            "link": "https://www.techrepublic.com/",
+            "text": "Tech Republic"
         }
     }
 };
