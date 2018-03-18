@@ -18,10 +18,18 @@ function insertObject(jsonObj, idColumn) {
     // Insert all of the links into the category
     $.each(jsonObj.links, function (index, item) {
 
+        var favicon = "";
+        if (item.favicon == null) {
+            favicon = "https://plus.google.com/_/favicon?domain=" + item.link;
+        }
+        else {
+            favicon = item.favicon;
+        }
+
         $("<li/>", {
             html: `<a href="${item.link}">
                         <button type="button" class= "btn btn-link" style="padding:0;" tabindex="-1">
-                            <img src="https://plus.google.com/_/favicon?domain=${item.link}" class="align-middle"/>
+                            <img src="${favicon}" width="16" height="16" class="align-middle"/>
                             - ${item.text}
                         </button>
                     </a>

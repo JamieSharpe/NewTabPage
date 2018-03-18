@@ -36,7 +36,8 @@ var News = {
         },
         "ACMTechNews": {
             "link": "http://technews.acm.org/",
-            "text": "ACM Tech News"
+            "text": "ACM Tech News",
+            "favicon": "img/acm.ico"
         },
         "Lobster": {
             "link": "https://lobste.rs/",
@@ -82,7 +83,7 @@ var News = {
             "link": "https://www.techrepublic.com/",
             "text": "Tech Republic"
         },
-        "": {
+        "Wikipedia": {
             "link": "https://en.wikipedia.org/wiki/Main_Page",
             "text": "Wikipedia"
         }
@@ -118,15 +119,18 @@ var Personal = {
     "links": {
         "Email": {
             "link": "https://mail.google.com/mail/u/0/#inbox",
-            "text": "Email"
+            "text": "Email",
+            "favicon": "img/gmail.ico"
         },
         "Calendar": {
             "link": "https://calendar.google.com/calendar/r",
-            "text": "Calendar"
+            "text": "Calendar",
+            "favicon": "img/calendar.png"
         },
         "Notes / Tasks": {
             "link": "https://keep.google.com/u/0/#home",
-            "text": "Notes / Tasks"
+            "text": "Notes / Tasks",
+            "favicon": "img/todo.png"
         },
         "Blog": {
             "link": "https://nullabletruth.co.uk/blog/wp-admin/",
@@ -142,11 +146,13 @@ var Personal = {
         },
         "NAS": {
             "link": "https://169.254.214.165:5001/",
-            "text": "NAS"
+            "text": "NAS",
+            "favicon": "img/harddrive.png"
         },
         "SSH": {
             "link": "chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html",
-            "text": "SSH"
+            "text": "SSH",
+            "favicon": "img/ssh.png"
         }
     }
 
@@ -158,11 +164,13 @@ var University = {
     "links": {
         "Udo": {
             "link": "https://udo.derby.ac.uk/my.policy",
-            "text": "UDo"
+            "text": "UDo",
+            "favicon": "img/udo.ico"
         },
         "LibGuides": {
             "link": "https://libguides.derby.ac.uk/",
-            "text": "Lib Guides"
+            "text": "Lib Guides",
+            "favicon": "img/uod.ico"
         },
         "WritingNavigator": {
             "link": "https://www.writingnavigator.com/portal/sites/writingnav/index.html#",
@@ -182,7 +190,8 @@ var University = {
         },
         "TypingStudying": {
             "link": "http://www.typingstudy.com/",
-            "text": "Typing Studying"
+            "text": "Typing Studying",
+            "favicon": "img/keyboard.png"
         },
         "TypeRacer": {
             "link": "http://play.typeracer.com/",
