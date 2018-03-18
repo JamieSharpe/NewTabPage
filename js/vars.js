@@ -81,6 +81,10 @@ var News = {
         "TechRepublic": {
             "link": "https://www.techrepublic.com/",
             "text": "Tech Republic"
+        },
+        "": {
+            "link": "https://en.wikipedia.org/wiki/Main_Page",
+            "text": "Wikipedia"
         }
     }
 };
