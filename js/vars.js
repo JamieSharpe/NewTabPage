@@ -220,7 +220,7 @@ var Media = {
             "text": "White Noise Generator",
         },
         "Twitch": {
-            "link": "https://www.twitch.com/",
+            "link": "https://www.twitch.tv/",
             "text": "Twitch"
         },
         "DeviantArt": {
