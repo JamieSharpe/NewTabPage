@@ -163,7 +163,7 @@ var University = {
     "title": "University",
     "links": {
         "Udo": {
-            "link": "https://udo.derby.ac.uk/my.policy",
+            "link": "https://udo.derby.ac.uk/",
             "text": "UDo",
             "favicon": "img/udo.ico"
         },
