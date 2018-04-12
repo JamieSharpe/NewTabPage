@@ -145,7 +145,7 @@ var Personal = {
             "text": "GitHub"
         },
         "NAS": {
-            "link": "https://169.254.214.165:5001/",
+            "link": "https://192.168.2.102:5001/",
             "text": "NAS",
             "favicon": "img/harddrive.png"
         },
