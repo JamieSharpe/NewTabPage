@@ -39,10 +39,6 @@ var News = {
             "text": "ACM Tech News",
             "favicon": "img/acm.ico"
         },
-        "Lobster": {
-            "link": "https://lobste.rs/",
-            "text": "Lobster"
-        },
         "TechCrunch": {
             "link": "https://techcrunch.com/",
             "text": "Tech Crunch"
@@ -51,21 +47,9 @@ var News = {
             "link": "https://www.engadget.com/uk/",
             "text": "Engadget"
         },
-        "MentalFloss": {
-            "link": "http://mentalfloss.com/",
-            "text": "Mental Floss"
-        },
-        "WallStreetJournal": {
-            "link": "https://www.wsj.com/europe",
-            "text": "Wall Street Journal"
-        },
         "TopTechNews": {
             "link": "https://www.toptechnews.com/",
             "text": "Top Tech News"
-        },
-        "AlJazeera": {
-            "link": "https://www.aljazeera.com/",
-            "text": "Al Jazeera"
         },
         "Reuters": {
             "link": "https://uk.reuters.com/",
@@ -172,21 +156,9 @@ var University = {
             "text": "Lib Guides",
             "favicon": "img/uod.ico"
         },
-        "WritingNavigator": {
-            "link": "https://www.writingnavigator.com/portal/sites/writingnav/index.html#",
-            "text": "Writing Navigator"
-        },
-        "PiktoChart": {
-            "link": "https://create.piktochart.com/dashboard",
-            "text": "Pikto Chart"
-        },
         "SciHub": {
             "link": "https://sci-hub.tw/",
             "text": "Sci Hub"
-        },
-        "WolframAlpha": {
-            "link": "https://www.wolframalpha.com/",
-            "text": "Wolfram Alpha"
         },
         "TypingStudying": {
             "link": "http://www.typingstudy.com/",
