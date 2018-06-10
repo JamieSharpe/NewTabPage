@@ -47,9 +47,9 @@ var News = {
             "link": "https://www.engadget.com/uk/",
             "text": "Engadget"
         },
-        "TopTechNews": {
-            "link": "https://www.toptechnews.com/",
-            "text": "Top Tech News"
+        "HackADay": {
+            "link": "https://hackaday.com/",
+            "text": "Hack A Day"
         },
         "Reuters": {
             "link": "https://uk.reuters.com/",
