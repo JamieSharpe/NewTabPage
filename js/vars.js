@@ -2,17 +2,41 @@ var News = {
     "id": "News",
     "title": "News",
     "links": {
+        "ForensicFocus": {
+            "link": "https://www.forensicfocus.com/",
+            "text": "Forensic Focus"
+        },
         "BBC": {
             "link": "http://www.bbc.com/news",
             "text": "BBC",
         },
-        "Verge": {
-            "link": "https://www.theverge.com/",
-            "text": "Verge"
-        },
         "ArsTechnica": {
             "link": "https://arstechnica.com/",
             "text": "Ars Technica"
+        },
+        "TorrentFreak": {
+            "link": "https://torrentfreak.com/",
+            "text": "Torrent Freak"
+        },
+        "HackerNews": {
+            "link": "https://news.ycombinator.com/",
+            "text": "Hacker News"
+        },
+        "HackADay": {
+            "link": "https://hackaday.com/",
+            "text": "Hack A Day"
+        },
+        "AnandTech": {
+            "link": "https://www.anandtech.com/",
+            "text": "AnandTech"
+        },
+        "TomsHardware": {
+            "link": "https://www.tomshardware.com/",
+            "text": "Tom's Hardware"
+        },
+        "Verge": {
+            "link": "https://www.theverge.com/",
+            "text": "Verge"
         },
         "Guardian": {
             "link": "https://www.theguardian.com/uk",
@@ -26,19 +50,6 @@ var News = {
             "link": "https://www.wired.co.uk/",
             "text": "Wired"
         },
-        "TorrentFreak": {
-            "link": "https://torrentfreak.com/",
-            "text": "Torrent Freak"
-        },
-        "HackerNews": {
-            "link": "https://news.ycombinator.com/",
-            "text": "Hacker News"
-        },
-        "ACMTechNews": {
-            "link": "http://technews.acm.org/",
-            "text": "ACM Tech News",
-            "favicon": "img/acm.ico"
-        },
         "TechCrunch": {
             "link": "https://techcrunch.com/",
             "text": "Tech Crunch"
@@ -46,10 +57,6 @@ var News = {
         "Engadget": {
             "link": "https://www.engadget.com/uk/",
             "text": "Engadget"
-        },
-        "HackADay": {
-            "link": "https://hackaday.com/",
-            "text": "Hack A Day"
         },
         "Reuters": {
             "link": "https://uk.reuters.com/",
@@ -159,6 +166,10 @@ var University = {
         "SciHub": {
             "link": "https://sci-hub.tw/",
             "text": "Sci Hub"
+        },
+        "LibGen": {
+            "link": "http://libgen.io/",
+            "text": "Library Genesis"
         },
         "TypingStudying": {
             "link": "http://www.typingstudy.com/",
