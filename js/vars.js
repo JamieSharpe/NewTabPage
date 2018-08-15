@@ -88,18 +88,6 @@ var Social = {
         "Twitter": {
             "link": "https://www.twitter.com/",
             "text": "Twitter"
-        },
-        "LinkedIn": {
-            "link": "https://www.linkedin.com/",
-            "text": "LinkedIn"
-        },
-        "Pinterest": {
-            "link": "https://www.pinterest.co.uk/",
-            "text": "Pinterest"
-        },
-        "Instagram": {
-            "link": "https://www.instagram.com/explore/",
-            "text": "Instagram"
         }
     }
 };
@@ -107,45 +95,7 @@ var Social = {
 var Personal = {
     "id": "Personal",
     "title": "Personal",
-    "links": {
-        "Email": {
-            "link": "https://mail.google.com/mail/u/0/#inbox",
-            "text": "Email",
-            "favicon": "img/gmail.ico"
-        },
-        "Calendar": {
-            "link": "https://calendar.google.com/calendar/r",
-            "text": "Calendar",
-            "favicon": "img/calendar.png"
-        },
-        "Notes / Tasks": {
-            "link": "https://keep.google.com/u/0/#home",
-            "text": "Notes / Tasks",
-            "favicon": "img/todo.png"
-        },
-        "Blog": {
-            "link": "https://nullabletruth.co.uk/blog/wp-admin/",
-            "text": "Nullable Truth Blog"
-        },
-        "NullableTruthCPanel": {
-            "link": "https://chi.uk2.net/shared-hosting/nullabletruth.co.uk/cpanel",
-            "text": "Website CPanel"
-        },
-        "Github": {
-            "link": "https://github.com/JamieSharpe",
-            "text": "GitHub"
-        },
-        "NAS": {
-            "link": "https://192.168.2.102:5001/",
-            "text": "NAS",
-            "favicon": "img/harddrive.png"
-        },
-        "SSH": {
-            "link": "chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html",
-            "text": "SSH",
-            "favicon": "img/ssh.png"
-        }
-    }
+    "links": {}
 
 };
 
@@ -153,16 +103,6 @@ var University = {
     "id": "University",
     "title": "University",
     "links": {
-        "Udo": {
-            "link": "https://udo.derby.ac.uk/",
-            "text": "UDo",
-            "favicon": "img/udo.ico"
-        },
-        "LibGuides": {
-            "link": "https://libguides.derby.ac.uk/",
-            "text": "Lib Guides",
-            "favicon": "img/uod.ico"
-        },
         "SciHub": {
             "link": "https://sci-hub.tw/",
             "text": "Sci Hub"
@@ -191,10 +131,6 @@ var University = {
         "stackexchage": {
             "link": "https://stackexchange.com/sites",
             "text": "Stack Exchange"
-        },
-        "TED": {
-            "link": "https://www.ted.com/",
-            "text": "TED"
         }
     }
 };
@@ -214,18 +150,6 @@ var Media = {
         "whiteNoiseGenerator": {
             "link": "https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php?c=0&l=9999534300000000000000&d=0",
             "text": "White Noise Generator",
-        },
-        "Twitch": {
-            "link": "https://www.twitch.tv/",
-            "text": "Twitch"
-        },
-        "DeviantArt": {
-            "link": "https://www.deviantart.com/",
-            "text": "Deviant Art"
-        },
-        "IMDb": {
-            "link": "https://www.imdb.com/",
-            "text": "IMDb"
         }
     }
 };
